@@ -5,11 +5,8 @@ _This is the Pololu Orangutan and 3pi Robot add-on for the Arduino IDE reorganiz
 To implement the library, all you have to do is:
 1. Get the Arduino IDE from either http://www.arduino.org/downloads or https://www.arduino.cc/en/Main/Software
 2. Download the library and unzip it.
-3. Move the "libraries" folder into your Arduino folder (if you already have a "libraries" folder, just copy the contents of this folder into your pre-existing folder). When you're done it'll look like this: ``` /Users/<user>/Documents/Arduino/libraries/PololuLib ```
-4. Move the "hardware" folder into your Arduino folder, which should be located in your documents folder. When you're done it'll look like this:
-```
-/Users/<user>/Documents/Arduino/hardware/PololuHardware
-```
+3. Move the "libraries" folder into your Arduino folder (if you already have a "libraries" folder, just copy the contents of this folder into your pre-existing folder). When you're done it'll look like this: ` /Users/<user>/Documents/Arduino/libraries/PololuLib `
+4. Move the "hardware" folder into your Arduino folder, which should be located in your documents folder. When you're done it'll look like this: ` /Users/<user>/Documents/Arduino/hardware/PololuHardware `
 
 __All Done__. That's it. Pretty simple. To make sure everything is installed correctly check these things:
 - You should see several new entries in the "Examples" menu, like "OrangutanMotors" and "OrangutanLCD".

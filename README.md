@@ -3,6 +3,7 @@
 _This is the Pololu Orangutan and 3pi Robot add-on for the Arduino IDE reorganized to make it usable/compatible with the Arduino IDE 1.6.x and 1.7.x as the code provided from Pololu does not work out of the gate._
 
 To implement the library, all you have to do is:
+
 1. Get the Arduino IDE from either http://www.arduino.org/downloads or https://www.arduino.cc/en/Main/Software
 2. Download the library and unzip it.
 3. Move the "libraries" folder into your Arduino folder (if you already have a "libraries" folder, just copy the contents of this folder into your pre-existing folder). When you're done it'll look like this: ` /Users/<user>/Documents/Arduino/libraries/PololuLib `

@@ -114,7 +114,7 @@ class PololuQTRSensors
 	// before the averaging.
 	unsigned int readLine(unsigned int *sensor_values, unsigned char readMode = QTR_EMITTERS_ON, unsigned char white_line = 0);
 
-	// Calibrated minumum and maximum values. These start at 1000 and
+	// Calibrated minimum and maximum values. These start at 1000 and
 	// 0, respectively, so that the very first sensor reading will
 	// update both of them.
 	//

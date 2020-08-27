@@ -404,7 +404,7 @@ unsigned int OrangutanAnalog::readBatteryMillivolts_X2()
 #else
 
 // The temperature sensor reading (on the Orangutan LV) can be converted into degrees C as follows:
-//   T = (Vout - 0.4) / 0.0195 Celcius
+//   T = (Vout - 0.4) / 0.0195 Celsius
 // The return value of this function is *tenths* of a degree Farenheit, although
 // the accuracy of the temperature sensor is +/- 2 C.
 int OrangutanAnalog::readTemperatureF()
@@ -417,7 +417,7 @@ int OrangutanAnalog::readTemperatureF()
 }
 
 
-// Orangutan LV only: The return value of this function is *tenths* of a degree Celcius.
+// Orangutan LV only: The return value of this function is *tenths* of a degree Celsius.
 int OrangutanAnalog::readTemperatureC()
 {
 	unsigned char mode = getMode();

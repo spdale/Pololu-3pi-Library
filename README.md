@@ -38,7 +38,7 @@ unsigned int sensors[5]; // an array to hold sensor values
 ```
 
 ### Once You've Written the Code
-Once you've written your code and are ready to upload it to your 3pi, make sure to select "**Pololu Orangutan or 3pi robot w/ ATmega328P**" under *Tools > Board* in the menu, as well as "**Pololu USB AVR Programmer**" under *Tools > Programmer* in the menu. Then under *Tools > Port* select something that looks like: **/dev/tty.usbmodem00146721**, making sure to choose the lowest number.
+Once you've written your code and are ready to upload it to your 3pi, make sure to select "**Pololu Orangutan or 3pi robot w/ ATmega328P**" under *Tools > Board* in the menu, as well as "**Pololu USB AVR Programmer**" under *Tools > Programmer* in the menu (note: the board must be selected before the programmer can be selected). Then under *Tools > Port* select something that looks like: **/dev/tty.usbmodem00146721**, making sure to choose the lowest number.
 
 ## Demo Code
 I've also included the demo code for the 3pi (the code that is installed on the 3pi when you first get it), which Pololu never wrote for the Arduino language.
